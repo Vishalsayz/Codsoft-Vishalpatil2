@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  background-color: whitesmoke;
+
+}
+
+.App-header {
+  background-color: #005f6c;
+  padding: 10px;
+  font-size: 20px;
+  color: white;
+}
+
+.cart-img{
+  height: 35px;
+  width: auto;
+  padding-left: 90%;
+  padding-bottom: -10px;
+}
+
+.shop-name {
+	-webkit-animation: shop-name 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+	        animation: shop-name 0.8s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+
+ @-webkit-keyframes shop-name {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+@keyframes shop-name {
+  0% {
+    letter-spacing: 1em;
+    opacity: 0;
+  }
+  40% {
+    opacity: 0.6;
+  }
+  100% {
+    letter-spacing: normal;
+    opacity: 1;
+  }
+}
+
